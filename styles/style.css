@@ -195,12 +195,11 @@ nav {
 
 /* Choose Your Destination */
 
-
 .choose {
     text-align: center;
     margin-top: 100px;
     width: 1440px;
-    min-height: 250px;
+    min-height: 180px;
 }
 
 .choose h2 {
@@ -224,14 +223,14 @@ nav {
 
 .place-pic-one {
     display: flex;
-    margin-left: 160px;
+    margin-left: 186px;
     gap: 20px;
 }
 
 .place-pic-two {
     padding-top: 15px;
     display: flex;
-    margin-left: 160px;
+    margin-left: 186px;
     gap: 20px;
 
 }
@@ -239,7 +238,7 @@ nav {
 .place-pic-three {
     padding-top: 15px;
     display: flex;
-    margin-left: 160px;
+    margin-left: 186px;
     gap: 20px;
 }
 
@@ -400,5 +399,139 @@ nav {
 
 /* --------End of Choose Your Destination----------- */
 
+.why {
+    width: 1440px;
+    min-height: 200px;
+    text-align: center;
+    margin-top: 100px;
+}
 
+.why h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
+}
+
+.why p {
+
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 160px;
+
+}
+
+.card-one {
+    width: 573px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 40px;
+
+}
+
+.card-one-detail h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card-one-detail p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card-two {
+    width: 573px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-top: 40px;
+
+}
+
+.card {
+    display: flex;
+    padding-left: 150px;
+    gap: 25px;
+}
+
+.card-two h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.card-two-detail p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card-three {
+    width: 573px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 430px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.card-three h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.card-three p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.pic-one,.pic-two,.pic-three{
+    margin-left: 22px;
+}
